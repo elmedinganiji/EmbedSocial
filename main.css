@@ -1,0 +1,177 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+#content{
+    
+   width: 100%;
+   margin: auto;
+   height:1220px;
+   overflow:hidden;
+   display: inline-block;
+    
+}
+
+
+.card{
+    width: 325px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    margin: 5px;
+    float: left;
+}
+/* divone*/
+
+.divone{
+    background-color: rgb(255, 255, 255);
+    height: 16%;
+    margin-top: 0px;
+    width: 100%;
+}
+
+.img_div1{
+    width:50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    float: left;
+    position: relative;
+    margin: 18px 15px;
+}
+
+.icon_div1{
+    width:25px;
+    height: 25px;
+    object-fit: contain;
+    float: right;
+    position: relative;
+    top:5px;
+    right: 12px;
+    
+}
+
+.name_div1{
+    position:relative;
+    top: 24px;
+}
+
+/*divtwo*/
+
+.divtwo{
+    width:94%;
+    margin:0 auto;
+    height: 73%;
+    overflow: hidden;
+    
+    
+
+}
+
+.img_div2{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+.text_div2{
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+
+/*divthree*/
+
+.divthree{
+    width: 95%;
+    height: 9%;
+    background-color: rgb(255, 255, 255);
+    margin: 10px auto;
+    border-top: 1px solid grey;
+}
+
+.img_div3{
+    outline-color: red;
+}
+
+.btn-like{
+    margin: 5px;
+    float: left;
+    outline: none;
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+.btn-like1{
+    margin: 5px;
+    float: left;
+    background-color: red;
+    outline: none;
+    border: none;
+}
+
+.counts{
+    float: left;
+    margin: 10px 5px;
+}
+/*button load more*/
+
+#like{
+    float: center;
+    padding: 15px 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin:5px 45%;
+}
+
+#like2{
+    display: none;
+    float: center;
+    padding: 15px 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin:5px 45%;
+    
+}
+
+  /*mobile/tablet view*/
+    
+@media screen and (max-width:992px){
+    #content{
+        width: 100%;
+        margin: auto; 
+    }
+     .card{
+         width: 350px;
+         margin-left: 5%;
+     }
+    
+  .img_div2{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }}
+
+  @media screen and (max-width:768px){
+    #content{
+        width: 100%;   
+        
+    }
+     .card{
+         display: block;
+         margin-left: 15%;
+         
+     }
+    
+  .img_div2{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }}
